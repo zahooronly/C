@@ -1,6 +1,5 @@
 #include <stdio.h>
-void main()
+int main()
 {
-    printf("Hello C!\n");
-    // exit 0;
+    printf("System Programming in C language!\n");
 }
