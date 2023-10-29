@@ -8,12 +8,14 @@ void main(){
     // printf("Hello World\n");
     // scanf("%d %d %d %d",&a,&b,&c,&d);
     // printf("Values are: %d %i %d %i\n",a,c,b,d);
-    int length,table;
+
+    int length,table,product;
     printf("Enter the length of table: ");
     scanf("%d",&length);
     printf("Enter table number: ");
     scanf("%d",&table);
     for(int i=1;i<=length;i++){
-        printf("%d * %d = %d\n",table,i,table*i);
+        product=table*i;
+        printf("%d * %d = %d\n",table,i,product);
     }
 }
