@@ -5,7 +5,7 @@ int main(int arguments, char *abc[]){
     printf("File name is: %s\n",abc[0]);
     printf("Argument Counter: %d\n",arguments);
     // printf("Constant Name: %s\n",name);
-    for(int i=0;i<=5;i++){
+    for(int i=0;i<=arguments;i++){
         printf("%s\n",abc[i]);
     }
 }
