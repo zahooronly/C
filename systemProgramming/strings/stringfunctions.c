@@ -4,23 +4,27 @@
 int main() {
     char str1[100];
     char str2[100];
+    char str3[100];
 
-    printf("Enter first string: ");
-    scanf("%s", str1);
-    printf("Enter second string: ");
-    scanf("%s", str2);
+    // printf("Enter first string: ");
+    // scanf("%s", str1);
+    // printf("Enter second string: ");
+    // scanf("%s", str2);
 
-    printf("Concatenated string is: %s\n", strcat(str1, str2));
-    printf("Concatenated string is: %s\n", strncat(str1, str2, 3));
+    // printf("Concatenated string is: %s\n", strcat(str1, str2));
+    // printf("Concatenated string is: %s\n", strncat(str1, str2, 5));
 
-    // Commented out lines that require custom functions
+    // char abc[100];
     // strcpy(str3, str1);
-    // strncpy(str3, str2, 3);
-    // int cmp = strcmp(str1, str2);
+    // printf("Str3: %s\n", str3);
+    // strncpy(abc, str2, 3);
+    // printf("abc: %s\n", abc);
+    // char abcd[100];
+    int cmp = strcmp("bananaaaaaaaa", "apple");
+    printf("compare %d\n", cmp);
     // char* substring = strcasestr(str1, "abc");
     // char* duplicate = strdup(str1);
-    
-    printf("Length of string is: %lu\n", strlen(str1)); // %lu for size_t
+    // printf("Length of string is: %lu\n", strlen(str1)); // %lu for size_t
 
     // Commented out lines that require custom functions
     // if (cmp == 0) {
@@ -36,8 +40,7 @@ int main() {
     //     printf("Substring not found\n");
     // }
     // printf("Duplicate string is: %s\n", duplicate);
-    
-    return 0;
+    // return 0;
 }
 
 
